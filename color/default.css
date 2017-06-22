@@ -9,18 +9,32 @@ background:#e06d5e;
 	color:#1BAC91;
 }
 /*stuff Ive added*/
-.downloadLinks{
+#mything{
+	float: left;
+	margin-left: 35px;
+}
+#intro{
+	color:#fff;
+	text-align: left;
+}
+.biotext{
+	width:400px;
+	color:#fff;
+	text-align:left;
+	/*margin: 0 auto;*/
+	margin-top:5px;
+}
+#downloadLinks{
 	color:#fff !important;
+	margin-right: 190px;
 }
 a{
 	font-family: 'Ubuntu', sans-serif !important;
-/*font-family: times;*/
 }
 h4{
-	/*font-family: 'Ubuntu', sans-serif !important;*/
-	/*font-family: 'Noto Sans', sans-serif;*/
-	font-family: 'Indie Flower', cursive;
-
+	font-size: 46px;
+  font-weight: 700;
+  letter-spacing: -1px;
 }
 
 .portfolio-overlay{
@@ -31,7 +45,10 @@ h4{
 }
 
 #face{
-	margin-top: -60px;
+	margin-top: -10px;
+	margin-right: 20px;
+	width: 28%;
+	float:right;
 }
 #newabout{
 	position: absolute;
