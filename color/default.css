@@ -1,0 +1,130 @@
+::-moz-selection {
+background:#e06d5e;
+}
+::selection {
+background:#e06d5e;
+}
+
+.navbar .brand a:hover {
+	color:#1BAC91;
+}
+/*stuff Ive added*/
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.4);
+}
+@media (max-width: 480px){
+	div#main-flexslider.flexslider{
+		padding-top: 60px;
+	}
+}
+@media (max-width: 979px){
+	div#main-flexslider.flexslider{
+		margin-top: 30px;
+	}
+
+	.navbar.transparent.navbar-inverse .navbar-inner {
+	   background: rgba(0,0,0,0.4);
+		 height: 123px;
+	}
+	html.csstransforms.csstransforms3d.csstransitions body div#header-wrapper.header-slider{
+		margin-top: -195px;
+		z-index: -1;
+	}
+	body > div.navbar-wrapper.__web-inspector-hide-shortcut__ > div > div > div{
+		background: rgba(0,0,0,.4);
+	}
+	body > div.navbar-wrapper.__web-inspector-hide-shortcut__ > div > div{
+		background: rgba(0,0,0,.4);
+	}
+		body > div.navbar-wrapper.__web-inspector-hide-shortcut__ > div{
+			background: rgba(0,0,0,.4);
+		}
+			body > div.navbar-wrapper.__web-inspector-hide-shortcut__{
+				background: rgba(0,0,0,.4);
+			}
+	.navImage{
+		margin-bottom: 30px;
+	}
+}
+/*section .spacer .green{
+	background-color:#03113a;
+}*/
+.spacer.green, .section.green{
+	background-color:#03113a;
+	margin-top: -150px;
+}
+div#header-wrapper{
+	height: 10px;
+}
+div#header-wrapper.header-slider{
+
+}
+body{
+	background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
+}
+section#works.section{
+	background: #fff !important;
+}
+/*stuff ive added above*/
+
+
+ul#menu-main > li > a:hover {
+	color: #1BAC91;
+}
+
+
+ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.selected, ul#menu-main li a.selected:active    {
+	color: #1BAC91;
+}
+#header-wrapper h1 span {
+	color:#1BAC91;
+}
+
+#header-wrapper input[type=submit] {
+	background: #1BAC91 !important;
+}
+
+#theme-form input[type=submit] {
+	background: #1BAC91 !important;
+}
+
+.btn.btn-theme {
+	background: #26c8aa !important;
+}
+
+/* blog */
+.home-post .post-meta {
+	background: #1BAC91;
+}
+
+/* com */
+.tabbable ul.nav-tabs li.active a,.tabbable ul.nav-tabs li a:hover {
+	color: #1BAC91;
+}
+.accordion .accordion-heading a.active {
+	color: #1BAC91;
+}
+
+#tweet ul li a {
+	color: #1BAC91;
+}
+
+
+/* works */
+#filters ul li a:hover h5, #filters ul li a.active h5 {
+	background: #1BAC91;
+	border-color: #1BAC91;
+}
+
+.portfolio .portfolio-overlay {
+	background: #1BAC91;
+}
+
+/* icon */
+i.icon-bgdark:hover {
+	background: #26c8aa;
+}
+
+i.icon-bgdark.active {
+	background: #e06d5e;
+}
