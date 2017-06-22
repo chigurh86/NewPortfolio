@@ -9,6 +9,46 @@ background:#e06d5e;
 	color:#1BAC91;
 }
 /*stuff Ive added*/
+.downloadLinks{
+	color:#fff !important;
+}
+a{
+	font-family: 'Ubuntu', sans-serif !important;
+/*font-family: times;*/
+}
+h4{
+	/*font-family: 'Ubuntu', sans-serif !important;*/
+	/*font-family: 'Noto Sans', sans-serif;*/
+	font-family: 'Indie Flower', cursive;
+
+}
+
+.portfolio-overlay{
+	background: #000 !important;
+}
+.flex-direction-nav{
+	display: none;
+}
+
+#face{
+	margin-top: -60px;
+}
+#newabout{
+	position: absolute;
+	top: 170px;
+}
+#newservices{
+	position: absolute;
+	top: 237px;
+}
+#newworks{
+	position: absolute;
+	top: 378px;
+}
+#newcontact{
+	position: absolute;
+	top: 170px;
+}
 .navbar.transparent.navbar-inverse .navbar-inner {
    background: rgba(0,0,0,0.4);
 }
