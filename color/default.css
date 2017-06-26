@@ -11,6 +11,23 @@ background:#e06d5e;
 
 
 /*stuff Ive added*/
+.pageLinks{
+	width: 150px;
+	text-align: left;
+}
+.whiteText{
+	color: white;
+}
+.biotextClass{
+	margin-left: 20px;
+}
+#centerdiv{
+	text-align: center;
+	padding-right: 5px;
+}
+#fix{
+	margin-right: 55px !important;
+}
 #mysaturn{
 	width: 60% !important;
 	margin-right: 200px;
@@ -167,9 +184,7 @@ div#header-wrapper{
 div#header-wrapper.header-slider{
 
 }
-body{
-	background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
-}
+
 section#works.section{
 	background: #fff !important;
 }

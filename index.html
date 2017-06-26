@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Maxim - Modern One Page Bootstrap Template</title>
+<title>Tony Caos' Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 <link href="css/style.css" rel="stylesheet">
 <link href="color/default.css" rel="stylesheet">
@@ -100,22 +101,15 @@
 <!-- section: team -->
 <section id="about"  class="section">
 <div class="container">
-	<h4>Who is Tony Caos?</h4>
 	<div class="row">
-		<div class="span4 offset1">
-			<div>
-				<h2>Passion for<strong> creativity</strong></h2>
+		<div id="centerdiv" class="span4 offset4">
+			<h4>Who is <br>Tony Caos?</h4>
 				<p>
 					Tony is a professional Website / Graphic Designer with proficiencies
 					in Wordpress, Front-end Development, Databases, Photoshop, Vector Illustration and Video Production.
 					He also holds a bachelors degree in business management.
 				</p>
-			</div>
-		</div>
-		<div class="span6">
-			<div class="aligncenter">
-				<!-- <img src="img/icons/creativity.png" alt="" /> -->
-			</div>
+
 		</div>
 	</div>
 	<div class="row">
@@ -149,12 +143,13 @@
 	<h4>Services</h4>
 	<!-- Four columns -->
 	<div class="row">
-		<div class="span3 animated-fast flyIn">
+		<div id="fix" class="span3 animated-fast flyIn offset1">
 			<div class="service-box">
 				<img src="img/icons/laptop.png" alt="" />
 				<h2>Web design</h2>
 				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					Tony's process consists of inspiration building,
+					sketching pages, building comps, and finally coding.
 				</p>
 			</div>
 		</div>
@@ -163,28 +158,20 @@
 				<img src="img/icons/lab.png" alt="" />
 				<h2>Web development</h2>
 				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					From concept to completion Tony possess the knowledge and skillset to built a
+					web application from the ground up.
 				</p>
 			</div>
 		</div>
 		<div class="span3 animated-fast flyIn">
 			<div class="service-box">
-				<img src="img/icons/camera.png" alt="" />
-				<h2>Photography</h2>
+				<img src="img/works/rocket-01.png" alt="" />
+				<h2>Graphic Design</h2>
 				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					Tony understands how to uncover
+					the needs of a project and create designs to exceed the requirements.
 				</p>
 			</div>
-		</div>
-		<div class="span3 animated-slow flyIn">
-			<div class="service-box">
-				<img src="img/icons/basket.png" alt="" />
-				<h2>Ecommerce</h2>
-				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			</div>
-			<div id="newworks"></div>
 		</div>
 	</div>
 </div>
@@ -204,14 +191,11 @@
 				<li><a href="#" data-filter=".web">
 				<h5>Web</h5>
 				</a></li>
-				<li><a href="#" data-filter=".print">
-				<h5>Print</h5>
-				</a></li>
 				<li><a href="#" data-filter=".design">
 				<h5>Design</h5>
 				</a></li>
-				<li><a href="#" data-filter=".photography">
-				<h5>Photography</h5>
+				<li><a href="#" data-filter=".print">
+				<h5>Print</h5>
 				</a></li>
 			</ul>
 		</div>
@@ -221,13 +205,13 @@
 		<div class="span12">
 			<div id="portfolio-wrap">
 				<!-- portfolio item -->
-				<div class="portfolio-item grid print photography">
+				<div class="portfolio-item grid web">
 					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/1.png" alt="" />
+						<a href="fitnessBuddy.html">
+						<img src="img/works/fitnessBuddy.png" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
-								<h5>First One in All</h5>
+								<h5>My Fitness Buddy</h5>
 								<i class="icon-plus icon-2x"></i>
 							</div>
 						</div>
@@ -235,10 +219,27 @@
 					</div>
 				</div>
 				<!-- end portfolio item -->
+
 				<!-- portfolio item -->
-				<div class="portfolio-item grid print design web">
+				<div class="portfolio-item grid web">
 					<div class="portfolio">
-						<a href="https://quiet-basin-61032.herokuapp.com/" data-pretty="" class="">
+						<a href="eatdaburger.html">
+						<img src="img/works/eatdaburger.png" alt="" />
+						<div class="portfolio-overlay">
+							<div class="thumb-info">
+								<h5>Eat Da Burger App</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+
+				<!-- web portfolio item -->
+				<div class="portfolio-item grid photography web">
+					<div class="portfolio">
+						<a href="streamius.html" target="_blank">
 						<img src="img/works/2.png" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
@@ -249,45 +250,47 @@
 						</a>
 					</div>
 				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid print design">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/3.png" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>ThirdOne</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
+				<!-- end web portfolio item -->
+
+				<!-- web portfolio item -->
 				<div class="portfolio-item grid photography web">
 					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/4.png" alt="" />
+						<a href="busby.html">
+						<img src="img/works/busby.png" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
-								<h5>FourthOne</h5>
+								<h5>Busby Cabinets</h5>
 								<i class="icon-plus icon-2x"></i>
 							</div>
 						</div>
 						</a>
 					</div>
 				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
+				<!-- end web portfolio item -->
+
+				<!-- web portfolio item -->
 				<div class="portfolio-item grid photography web">
 					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/5.png" alt="" />
+						<a href="trujillo.html">
+						<img src="img/works/trujillo.png" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
-								<h5>FifthOne</h5>
+								<h5>Trujillo Vargas Site</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+					</div>
+				</div>
+				<!-- end web portfolio item -->
+				<!-- portfolio item -->
+				<div class="portfolio-item grid design">
+					<div class="portfolio">
+						<a href="globalconnect.html">
+						<img src="img/works/globalconnect.png" alt="" />
+						<div class="portfolio-overlay">
+							<div class="thumb-info">
+								<h5>Global Connect</h5>
 								<i class="icon-plus icon-2x"></i>
 							</div>
 						</div>
@@ -296,13 +299,13 @@
 				</div>
 				<!-- end portfolio item -->
 				<!-- portfolio item -->
-				<div class="portfolio-item grid photography web">
+				<div class="portfolio-item grid design">
 					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/6.png" alt="" />
+						<a href="img/works/wineEnth.jpg">
+						<img src="img/works/wineEnth.jpg" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
-								<h5>SixthOne</h5>
+								<h5>Wine Enthusiast Shirt</h5>
 								<i class="icon-plus icon-2x"></i>
 							</div>
 						</div>
@@ -311,13 +314,31 @@
 				</div>
 				<!-- end portfolio item -->
 				<!-- portfolio item -->
-				<div class="portfolio-item grid photography web">
+				<div class="portfolio-item grid design">
 					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/7.png" alt="" />
+						<a href="img/works/liveRidic.jpg" >
+						<img src="img/works/liveRidic.jpg" alt="Live Ridiculously Shirt"/>
+						<!-- modal -->
+						<!-- <div class="modal fade" id="mymodal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3>Live Ridic</h3>
+									</div>
+									<div class="modal-body">
+											Hey dude
+										</div>
+									<div class="modal-footer">
+										<p>I did Stuff here</p>
+										<button type="button" class="btn btn-default" data-dismiss="modal" name="button">Close</button>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<!-- end modal -->
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
-								<h5>SeventhOne</h5>
+								<h5>Live Ridiculously Shirt</h5>
 								<i class="icon-plus icon-2x"></i>
 							</div>
 						</div>
@@ -325,51 +346,7 @@
 					</div>
 				</div>
 				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid photography">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/8.png" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>EigthOne</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid photography web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/9.png" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>NinthOne</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid design web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/10.png" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>TenthOne</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
+
 			</div>
 		</div>
 	</div>
@@ -390,91 +367,6 @@
 	</div>
 </div>
 </section>
-<!-- end spacer section -->
-<!-- section: blog -->
-<!-- <section id="blog" class="section">
-<div class="container">
-	<h4>Our Blog</h4>
-	<!--Three columns -->
-	<!-- <div class="row">
-		<div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img1.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="date">June 19, 2013</span>
-					<span class="tags"><a href="#">Design</a>, <a href="#">Blog</a></span>
-				</div>
-				<div class="entry-content">
-					<h5><strong><a href="#">New design trends</a></strong></h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-					</p>
-					<a href="#" class="more">Read more</a>
-				</div>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img2.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="date">June 19, 2013</span>
-					<span class="tags"><a href="#">Design</a>, <a href="#">News</a></span>
-				</div>
-				<div class="entry-content">
-					<h5><strong><a href="#">Retro is great</a></strong></h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-					</p>
-					<a href="#" class="more">Read more</a>
-				</div>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img3.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="date">June 22, 2013</span>
-					<span class="tags"><a href="#">Design</a>, <a href="#">Tips</a></span>
-				</div>
-				<div class="entry-content">
-					<h5><strong><a href="#">Isometric mockup</a></strong></h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-					</p>
-					<a href="#" class="more">Read more</a>
-				</div>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img4.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="date">June 27, 2013</span>
-					<span class="tags"><a href="#">News</a>, <a href="#">Tutorial</a></span>
-				</div>
-				<div class="entry-content">
-					<h5><strong><a href="#">Free icon set</a></strong></h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-					</p>
-						<div id="newcontact"></div>
-					<a href="#" class="more">Read more</a>
-				</div>
-			</div>
-		</div>
-	</div> -->
 	<div class="blankdivider30"></div>
 	<div class="aligncenter">
 		<a href="#" class="btn btn-large btn-theme">More blog post</a>
@@ -488,7 +380,8 @@
 <div class="container">
 	<h4>Get in Touch</h4>
 	<p>
-		 Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere consetetur ei eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
+		Get in contact with Tony and learn how his various skillsets can bring your project or organization
+		to the next level. Once you submit the form he will be in contact with you as soon as possible.
 	</p>
 	<div class="blankdivider30">
 	</div>
@@ -569,6 +462,8 @@
 <script src="js/validate.js"></script>
 <script src="js/custom.js"></script>
 <script src="contactform/contactform.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
