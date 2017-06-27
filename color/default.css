@@ -79,7 +79,7 @@ i.icon-bgdark.active {
 	color: #fff;
 }
 #myFace{
-	width:40%;
+	width:60%;
 }
 .spacer.green, .section.green{
 	background: #010a2f;
@@ -97,4 +97,11 @@ i.icon-bgdark.active {
 	display: none;
 }
 .navbar-inner{
+}
+.large{
+	color:white;
+	margin-top: 25px;
+}
+nav{
+	margin-top: 20px;
 }
