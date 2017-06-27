@@ -17,7 +17,7 @@ CONTENTS:
 06 Footer
 07 Icons
 08 Buttons
-09 Media queries
+09 Media queries 
 ===========================
 */
 /* Import css */
@@ -44,21 +44,6 @@ CONTENTS:
 /* =========================================================
 01. General
 ============================================================ */
-/*.largernavImage{
-	width: 30%;
-}*/
-.navImage{
-	/*width:10vw;*/
-	margin-left: 20px;
-}
-.nav{
-	margin-top: 50px;
-}
-html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper
-div.navbar.transparent.navbar-inverse.navbar-fixed-top div.navbar-inner
-div.container nav#main-nav.pull-right.nav-collapse.collapse{
-	margin-top: 20px;
-}
 
 div, article, section, header, footer, nav, li {
 	position:relative;
@@ -106,7 +91,7 @@ a.scrollup {
 a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
 	opacity:1;
 	text-decoration:none;
-	-webkit-transition: all 400ms ease-out 0s;
+	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
@@ -509,14 +494,14 @@ section.spacer.bg2 {
 	background: url(../img/bg/bg-2.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
-	margin:0;
+	margin:0;	
 }
 
 section.spacer.bg3 {
 	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
-	margin:0;
+	margin:0;	
 }
 
 section.spacer blockquote.large:before {
@@ -782,7 +767,7 @@ section#blog {
 
 .home-post {
 	background:#fff;
-
+	
 }
 
 .home-post:hover {
@@ -1300,7 +1285,7 @@ i.icon-white {
 /* =========================================================
 08. Buttons
 ============================================================ */
-
+ 
 .btn {
 	color: #fff;
 	text-shadow: none;
@@ -1583,28 +1568,28 @@ i.icon-white {
 		padding-right:0;
 		padding:0;
 	}
-
+	
 	.navbar-inner {
 	 padding-right: 20px;
-	 padding-left: 20px;
+	 padding-left: 20px;	
 	}
-
+	
 	.navbar-inner h1.brand {
 		margin-left:20px;
 	}
-
+	
 	.navbar-inner .btn-navbar {
 		margin:20px 20px 0;
 	}
-
+	
 	.container {
 	 padding-right: 20px;
 	 padding-left: 20px;
-	}
+	}	
 	.navbar-inverse .navbar-inner {
 		padding:0 0 30px;
 	}
-
+	
 	.nav-collapse {
 		text-align:center;
 		width:100%;
@@ -1620,25 +1605,25 @@ i.icon-white {
 	}
 	.navbar-inner {
 	 padding-right: 20px;
-	 padding-left: 20px;
+	 padding-left: 20px;	
 	}
-
+	
 	.navbar-inner h1.brand {
 		margin-left:20px;
 	}
-
+	
 	.navbar-inner .btn-navbar {
 		margin:20px 20px 0;
 	}
-
+	
 	.container {
 	 padding-right: 20px;
 	 padding-left: 20px;
-	}
+	}	
 	.navbar-inverse .navbar-inner {
 		padding:0 20px 30px;
 	}
-
+	
 	.nav-collapse {
 		text-align:center;
 		width:100%;
@@ -1647,7 +1632,7 @@ i.icon-white {
 		width: 25%;
 	}
 }
-
+    
     /* Smaller screens ----------- */
 @media (max-width : 480px) {
 	#header-wrapper {
@@ -1667,7 +1652,7 @@ i.icon-white {
 	}
 
 }
-
+    
     /* Smartphones (portrait and landscape) ----------- */
 @media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
 
@@ -1694,10 +1679,10 @@ i.icon-white {
  section#services h2, section#services ul {
  text-align: center;
 }
-
+		
 
 /* team */
-
+		
 #team .team-thumb {
  margin-right: auto;
  margin-left: auto;
@@ -1712,7 +1697,7 @@ i.icon-white {
  margin-left: auto;
  margin-right: auto;
 }
-
+		
 /* Contact Form */
 	#contact-form {
 		overflow: hidden;

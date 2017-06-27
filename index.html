@@ -2,17 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Tony Caos' Portfolio</title>
+<title>Maxim - Modern One Page Bootstrap Template</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
-<!-- google fonts -->
-<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
 <link href="css/style.css" rel="stylesheet">
 <link href="color/default.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.ico">
@@ -26,22 +20,20 @@
 <body>
 <!-- navbar -->
 <div class="navbar-wrapper">
-	<div class="navbar transparent navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
 				<!-- Responsive navbar -->
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
-				<h1 class="brand"><a href="index.html"><img class="navImage" src="img/logo-image.png" alt=""></a></h1>
+				<h1 class="brand"><a href="index.html"><img class="navImage" src="img/logo-image.png" alt="Caos Creative"></a></h1>
 				<!-- navigation -->
-				<nav id="main-nav"class="pull-right nav-collapse collapse">
+				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
-					<li><a title="team" href="#header-wrapper">Home</a></li>
-					<li><a title="team" href="#newabout">About</a></li>
-					<li><a title="services" href="#newservices">Services</a></li>
-					<li><a title="works" href="#newworks">Works</a></li>
-					<!-- <li><a title="blog" href="#blog">Blog</a></li> -->
-					<li><a title="contact" href="#newcontact">Contact</a></li>
+					<li><a title="team" href="#about">About</a></li>
+					<li><a title="services" href="#services">Services</a></li>
+					<li><a title="works" href="#works">Works</a></li>
+					<li><a title="contact" href="#contact">Contact</a></li>
 					<!-- <li><a href="page.html">Page</a></li> -->
 				</ul>
 				</nav>
@@ -52,33 +44,13 @@
 <!-- Header area -->
 <div id="header-wrapper" class="header-slider">
 	<header class="clearfix">
-	<div class="logo">
-	</div>
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-				<div id="main-flexslider" class="flexslider">
-					<div class="span3 alignright flyLeft">
-					<div id="mything"class="col-6-md">
-						<h4 id="intro">Tony Caos</h4>
-						<h6 id="subintro">Web Developer</h6>
-						<p class="biotext">Tony is a front end developer with proficiencies in Graphic &amp; Interactive Design
-							as well as video production. He also holds a bachelors degree in business
-							management and has years of experience in the hospitality industry.
-						</p>
-						<br>
-						<a id="downloadLinks" href="Graphics Resume.zip" download=""> DOWNLOAD RESUME</a>
-					</div>
-					</div>
-						<div class="span6 aligncenter flyRight">
-							<img id="face" src="./img/tonyface.png" alt="tonys face">
-						</div>
-				</div>
 				<!-- end slider -->
 			</div>
 		</div>
 	</div>
-	<!-- <img class="largernavImage" src="img/logo-image.png" alt=""> -->
 	</header>
 </div>
 <!-- spacer section -->
@@ -86,13 +58,23 @@
 <div class="container">
 	<div class="row">
 		<div class="span6 alignright flyLeft">
-			<img id="mysaturn" src="./img/saturn-03.png" alt="">
+			<!-- <blockquote class="large">
+				 There's huge space beetween creativity and imagination <cite>Mark Simmons, Nett Media</cite>
+			</blockquote> -->
+			<div id="mything"class="col-6-md">
+				<h4 id="intro">Meet Tony Caos</h4>
+				<p class="biotext">Tony is a front end developer with proficiencies in Graphic &amp; Interactive Design
+					as well as video production. He also holds a bachelors degree in business
+					management and has years of experience in the hospitality industry.
+				</p>
+				<br>
+				<a id="downloadLinks" href="Graphics Resume.zip" download=""> DOWNLOAD RESUME</a>
+			</div>
 			<div id="newabout"></div>
 		</div>
 		<div class="span6 aligncenter flyRight">
-			<blockquote id="quote" class="large">
-				 There's huge space beetween creativity and imagination <cite>Mark Simmons, Nett Media</cite>
-			</blockquote>
+
+			<img id="myFace" src="./img/tonyface.png" alt="">
 		</div>
 	</div>
 </div>
@@ -109,7 +91,7 @@
 					in Wordpress, Front-end Development, Databases, Photoshop, Vector Illustration and Video Production.
 					He also holds a bachelors degree in business management.
 				</p>
-
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -136,6 +118,7 @@
 </div>
 <!-- /.container -->
 </section>
+
 <!-- end section: team -->
 <!-- section: services -->
 <section id="services" class="section orange">
@@ -318,24 +301,6 @@
 					<div class="portfolio">
 						<a href="img/works/liveRidic.jpg" >
 						<img src="img/works/liveRidic.jpg" alt="Live Ridiculously Shirt"/>
-						<!-- modal -->
-						<!-- <div class="modal fade" id="mymodal">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h3>Live Ridic</h3>
-									</div>
-									<div class="modal-body">
-											Hey dude
-										</div>
-									<div class="modal-footer">
-										<p>I did Stuff here</p>
-										<button type="button" class="btn btn-default" data-dismiss="modal" name="button">Close</button>
-									</div>
-								</div>
-							</div>
-						</div> -->
-						<!-- end modal -->
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Live Ridiculously Shirt</h5>
@@ -367,13 +332,6 @@
 	</div>
 </div>
 </section>
-	<div class="blankdivider30"></div>
-	<div class="aligncenter">
-		<a href="#" class="btn btn-large btn-theme">More blog post</a>
-	</div>
-</div>
-</section> -->
-
 <!-- end spacer section -->
 <!-- section: contact -->
 <section id="contact" class="section green">
@@ -381,8 +339,7 @@
 	<h4>Get in Touch</h4>
 	<p>
 		Get in contact with Tony and learn how his various skillsets can bring your project or organization
-		to the next level. Once you submit the form he will be in contact with you as soon as possible.
-	</p>
+		to the next level. Once you submit the form he will be in contact with you as soon as possible.	</p>
 	<div class="blankdivider30">
 	</div>
 	<div class="row">
@@ -462,8 +419,6 @@
 <script src="js/validate.js"></script>
 <script src="js/custom.js"></script>
 <script src="contactform/contactform.js"></script>
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 </body>
 </html>
