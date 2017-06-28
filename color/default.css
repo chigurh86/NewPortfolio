@@ -161,7 +161,10 @@ nav{
 	margin-top: 25px;
 }
 .pushDown{
-	margin-bottom:20px; 
+	margin-bottom:20px;
+}
+.contactMessage{
+	font-size: 1.1em;
 }
 @media (max-width: 979px) {
 	html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container{
