@@ -50,17 +50,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-				<div id="main-flexslider" class="flexslider">
-					<div class="span3 alignright flyLeft">
+					<div class="span3 alignright flyLeft portpage-left">
 					<div id="mything"class="col-6-md">
 						<h4 id="intro">My Fitness Buddy</h4>
-						<h6 id="subintro">Developer</h6>
+						<h6 class="titles">Developer</h6>
 						<p class="biotext">My Fitness Buddy is a Web App built using Laravel and PHP.
 							It tracks users meals and caloric intake as well as allows for users to login and create an account.
 							It utilizes a mySQL database in order to do this.
 						</p>
-						<h6 id="subintro">Contribution</h6>
-						<ul class="biotext">
+						<h6 class="titles">Contribution</h6>
+						<ul class="biotext biotextClass">
 							<li>Created database</li>
 							<li>Wrote code to pull in user information to specific pages</li>
 							<li>Wrote logic to store user information to database</li>
@@ -68,13 +67,16 @@
 							<li>Built the routing for the app</li>
 						</ul>
 						<br>
-						<a id="downloadLinks" href="http://pacific-tundra-84810.herokuapp.com/" target="_blank">EXPLORE THE APP</a>
-					</div>
-					</div>
-						<div class="span6 aligncenter flyRight">
-							<img id="face" src="./img/works/fitnessBuddy.png" alt="tonys face">
+						<div class="pageLinks">
+						<a class="linkText" href="http://pacific-tundra-84810.herokuapp.com/" target="_blank">EXPLORE THE APP</a>
 						</div>
-				</div>
+					</div>
+					</div>
+						<div class="span6 aligncenter flyRight indPortfolio movedown">
+							<a class="linkText" href="https://quiet-basin-61032.herokuapp.com/" target="_blank">
+								<img class="picture-portfol" src="./img/sep-page-images/fitnessBuddy.png" alt="fitness buddy">
+							</a>
+						</div>
 				<!-- end slider -->
 			</div>
 		</div>
@@ -84,30 +86,31 @@
 </div>
 <!-- spacer section -->
 <footer>
-<div class="container">
-	<div class="row">
-		<div class="span6 offset3">
-			<ul class="social-networks">
-				<li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
-				<li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
-				<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
-				<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
-			</ul>
-			<p class="copyright">
-				&copy; Maxim Theme. All rights reserved.
-                <div class="credits">
-                    <!--
-                        All the links in the footer should remain intact.
-                        You can delete the links only if you purchased the pro version.
-                        Licensing information: https://bootstrapmade.com/license/
-                        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
-                    -->
-                    <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a> by BootstrapMade.com
-                </div>
-			</p>
+	<div class="container">
+		<div class="row">
+			<div class="span6 offset3">
+				<ul class="social-networks">
+					<li><a href="https://www.facebook.com/CaosCreative-228880874196757/" target="_blank"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>
+					<li><a href="https://twitter.com/caos_creative" target="_blank"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/tony-caos-64860645/"  target="_blank"><i class="icon-circled icon-bgdark icon-linkedin icon-2x"></i></a></li>
+				</ul>
+				<div style="display:none;">
+				<p class="copyright">
+					&copy; Maxim Theme. All rights reserved.
+									<div class="credits">
+											<!--
+													All the links in the footer should remain intact.
+													You can delete the links only if you purchased the pro version.
+													Licensing information: https://bootstrapmade.com/license/
+													Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
+											-->
+											<a href="https://bootstrapmade.com/">Free Bootstrap Themes</a> by BootstrapMade.com
+									</div>
+				</p>
+			</div>
+			</div>
 		</div>
 	</div>
-</div>
 <!-- ./container -->
 </footer>
 <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>

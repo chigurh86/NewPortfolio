@@ -116,9 +116,10 @@ nav{
 .centered{
 	text-align: center;
 }
-.guys{
-	margin-left:35px;
+.centerer{
+	text-align: center;
 }
+
 /*individual portfolio pages*/
 .titles{
 	color: #fff;
@@ -165,6 +166,22 @@ nav{
 }
 .contactMessage{
 	font-size: 1.1em;
+}
+.guys{
+	width: 600px;
+	margin: 0 auto;
+}
+.movedown{
+	margin-top: 40px;
+}
+
+.trujilloImg{
+	margin-top: 20px;
+	margin-left:70px !important;
+
+}
+.centerRow{
+	margin: 0 auto;
 }
 @media (max-width: 979px) {
 	html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container{
