@@ -183,6 +183,14 @@ nav{
 .centerRow{
 	margin: 0 auto;
 }
+#photo-modal .modal-dialog
+{
+    text-align:center;
+    display:table;
+    padding: 0;
+    margin-top: 30px;
+		background-color: pink;
+}
 @media (max-width: 979px) {
 	html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container{
 		background:black;
