@@ -174,7 +174,9 @@ nav{
 .movedown{
 	margin-top: 40px;
 }
-
+.movedown2{
+	margin-top: 20px;
+}
 .trujilloImg{
 	margin-top: 20px;
 	margin-left:70px !important;
@@ -191,6 +193,35 @@ nav{
     margin-top: 30px;
 		background-color: pink;
 }
+.picture-portfol{
+	border: solid 2px white;
+}
+@media (max-width: 767px) {
+	/*.alignleft{
+		position: absolute;
+		left: -162px;
+	}*/
+	.img-circle{
+		width: 40%;
+	}
+	#myFace{
+		padding-top: 40px;
+		margin: 0 auto;
+	}
+	.biotext{
+		text-align: center;
+		margin-right:
+	}
+	.service-box{
+	}
+	#fix{
+		margin-left: -1%;
+	}
+	/*#middleDiv{
+		margin-right: 30%;
+	}*/
+
+},
 @media (max-width: 979px) {
 	html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container{
 		background:black;
