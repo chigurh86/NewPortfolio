@@ -73,12 +73,12 @@ i.icon-bgdark.active {
 /*my added styles*/
 #mything{
 	text-align: left;
-	width: 300px;
+	/*width: 300px;*/
 	margin-left: 100px;
 	color: #fff;
 }
 #myFace{
-	width:60%;
+	/*width:60%;*/
 }
 .spacer.green, .section.green{
 	background: #010a2f;
@@ -168,8 +168,8 @@ nav{
 	font-size: 1.1em;
 }
 .guys{
-	width: 600px;
 	margin: 0 auto;
+	overflow: auto;
 }
 .movedown{
 	margin-top: 40px;
@@ -196,11 +196,33 @@ nav{
 .picture-portfol{
 	border: solid 2px white;
 }
+.noborder{
+	border: none !important;
+}
+
 @media (max-width: 767px) {
-	/*.alignleft{
-		position: absolute;
-		left: -162px;
-	}*/
+	.offset4{
+		margin-left: 0px !important;
+	}
+	.guys{
+		margin-left: -30px ;
+	}
+	#intro{
+		margin-left: -50%;
+		text-align: center;
+	}
+	#middleDiv{
+		/*overflow: auto;*/
+		width: 70%;
+		margin-left: 7%;
+		text-align: center;
+	}
+
+	.biotext{
+		width: 90%;
+		margin-right: 90% !important;
+		margin-left: -20% !important;
+	}
 	.img-circle{
 		width: 40%;
 	}
@@ -217,11 +239,7 @@ nav{
 	#fix{
 		margin-left: -1%;
 	}
-	/*#middleDiv{
-		margin-right: 30%;
-	}*/
-
-},
+}
 @media (max-width: 979px) {
 	html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container{
 		background:black;
