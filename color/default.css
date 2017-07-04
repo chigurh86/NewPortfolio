@@ -244,5 +244,11 @@ nav{
 	html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container{
 		background:black;
 	}
+	.navbar-inner {
+		background:rgb(0, 0, 0) !important;
+	}
+	#mything{
+		width: 40%;
+	}
 
 }
