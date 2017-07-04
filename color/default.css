@@ -73,7 +73,7 @@ i.icon-bgdark.active {
 /*my added styles*/
 #mything{
 	text-align: left;
-	width: 300px;
+	width: 70%;
 	margin-left: 100px;
 	color: #fff;
 }
@@ -199,13 +199,18 @@ nav{
 .noborder{
 	border: none !important;
 }
-
+.offset4{
+	margin-left: 33% !important;
+}
+.movefaces{
+	margin-left: 27% !important;
+}
 @media (max-width: 767px) {
 	.offset4{
 		margin-left: 0px !important;
 	}
-	.guys{
-		margin-left: -30px ;
+	.movefaces{
+		margin-left: 0px !important;
 	}
 	#intro{
 		margin-left: -50%;
@@ -239,6 +244,7 @@ nav{
 	#fix{
 		margin-left: -1%;
 	}
+
 }
 @media (max-width: 979px) {
 	html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container{
@@ -248,7 +254,12 @@ nav{
 		background:rgb(0, 0, 0) !important;
 	}
 	#mything{
-		width: 40%;
+		width: 80%;
 	}
 
+}
+@media (max-width: 375px){
+	.bg3{
+		display:none;
+	}
 }
