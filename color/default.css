@@ -205,6 +205,9 @@ nav{
 .movefaces{
 	margin-left: 27% !important;
 }
+.icon-github:hover{
+	background-color: #010a2f !important;
+}
 @media (max-width: 767px) {
 	.offset4{
 		margin-left: 0px !important;
