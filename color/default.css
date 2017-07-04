@@ -73,7 +73,7 @@ i.icon-bgdark.active {
 /*my added styles*/
 #mything{
 	text-align: left;
-	/*width: 300px;*/
+	width: 300px;
 	margin-left: 100px;
 	color: #fff;
 }
