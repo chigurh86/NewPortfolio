@@ -73,8 +73,12 @@ i.icon-bgdark.active {
 /*my added styles*/
 #mything{
 	text-align: left;
-	width: 70%;
-	margin-left: 100px;
+	/*width: 70%;
+	margin-left: 100px;*/
+	color: #fff;
+}
+#busby{
+	text-align: left;
 	color: #fff;
 }
 #myFace{
@@ -83,7 +87,14 @@ i.icon-bgdark.active {
 .spacer.green, .section.green{
 	background: #010a2f;
 }
-#intro{
+
+.headline{
+	color: #fff;
+	font-weight:bold;
+	font-size: 40px;
+
+}
+#busbyintro{
 	color: #fff;
 	font-weight:bold;
 	font-size: 40px;
@@ -121,6 +132,13 @@ nav{
 }
 
 /*individual portfolio pages*/
+.hiddendiv{
+	display: none;
+	width: 100%;
+	margin-left: 2%;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
 .titles{
 	color: #fff;
 	font-weight: bold;
@@ -134,7 +152,7 @@ nav{
 	padding-left: 20px;
 }
 .indPortfolio{
-	margin-left: 140px;
+	margin-left: 8%;
 }
 .picture-portfol{
 	margin-left: 90px;
@@ -208,6 +226,9 @@ nav{
 .icon-github:hover{
 	background-color: #010a2f !important;
 }
+
+/* portfolio page smaller*/
+
 @media (max-width: 767px) {
 	.offset4{
 		margin-left: 0px !important;
@@ -262,7 +283,60 @@ nav{
 
 }
 @media (max-width: 375px){
+
 	.bg3{
 		display:none;
 	}
+}
+/*busby page*/
+@media (max-width: 979px){
+	    #header-wrapper{
+				padding-top: 6%;
+			}
+			.picture-portfol{
+				width: 80%;
+			}
+}
+@media (max-width: 767px){
+
+			.picture-portfol{
+				width: 40%;
+			}
+			.biotext{
+				width: 60%;
+				margin-right: 0%  !important;
+				margin-left: 3% !important;
+				text-align: left;
+			}
+			.titles{
+				margin-left: 3% !important;
+			}
+			.pageLinks{
+				margin-left: 3% !important;
+			}
+			#busbyintro{
+				margin-left: 3% !important;
+			}
+			.bigTitle{
+				margin-left: 3% !important;
+			}
+			.headline{
+				margin-left: 2% !important;
+			}
+
+}
+@media (max-width: 400px){
+			.closedown{
+				display: none;
+			}
+			.hiddendiv{
+				display: block;
+			}
+			.biotext{
+				width: 100%;
+			}
+			.linkText{
+				font-size: 20px;
+			}
+
 }
