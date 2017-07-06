@@ -81,8 +81,10 @@ i.icon-bgdark.active {
 	text-align: left;
 	color: #fff;
 }
-#myFace{
-	/*width:60%;*/
+#intro{
+	color: #fff;
+	font-weight:bold;
+	font-size: 40px;
 }
 .spacer.green, .section.green{
 	background: #010a2f;
