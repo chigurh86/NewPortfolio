@@ -8,10 +8,9 @@ $(document).ready(function() {
 
         var name = $('#name').val().trim();
         var email = $('#email').val().trim();
-        var subject = $('#subject').val().trim();
         var message = $('#message').val().trim();
 
-        console.log(name, email, subject, message);
+        console.log(name, email, message);
 
         $.ajax({
             url: "https://formspree.io/tcgoldenvideo@gmail.com",
@@ -19,7 +18,6 @@ $(document).ready(function() {
             data: {
                 name: name,
                 email: email,
-                subject: subject,
                 message: message
             },
             dataType: "json",
@@ -27,7 +25,6 @@ $(document).ready(function() {
                 console.log(data);
                 $('#name').val('');
                 $('#email').val('');
-                $('#subject').val('');
                 $('#message').val('');
 
                 // $('#success-message').append('<p>Message Sent</p>')
