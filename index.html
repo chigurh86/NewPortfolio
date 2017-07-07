@@ -554,6 +554,15 @@
 <!-- ./container -->
 </footer>
 <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+<script type="text/javascript">
+			var request = require('request');
+
+			request('https://realemail.expeditedaddons.com/?api_key=' + process.env.REALEMAIL_API_KEY + '&email=email%40example.org&fix_typos=false', function (error, response, body) {
+			console.log('Status:', response.statusCode);
+			console.log('Headers:', JSON.stringify(response.headers));
+			console.log('Response:', body);
+			});
+</script>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.scrollTo.js"></script>
 <script src="js/jquery.nav.js"></script>
