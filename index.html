@@ -494,7 +494,7 @@
 			<div class="cform" id="contact-form">
 				<div id="sendmessage">Your message has been sent. Thank you!</div>
                 <div id="errormessage"></div>
-				<form action="contact.php" method="post" id="form" class="contact-form"  class="contactForm" role="form">
+				<form method="post" id="form" class="contact-form"  class="contactForm" role="form">
 					<div class="row">
 						<div class="span6">
 							<div class="field your-name form-group">
@@ -554,16 +554,7 @@
 <!-- ./container -->
 </footer>
 <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
-<script type="text/javascript">
-		alert("Hello! I am an alert box!!");
-			var request = require('request');
-
-			request('https://realemail.expeditedaddons.com/?api_key=' + process.env.REALEMAIL_API_KEY + '&email=email%40example.org&fix_typos=false', function (error, response, body) {
-			console.log('Status:', response.statusCode);
-			console.log('Headers:', JSON.stringify(response.headers));
-			console.log('Response:', body);
-			});
-</script>
+<script src="js/send-email.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.scrollTo.js"></script>
 <script src="js/jquery.nav.js"></script>
