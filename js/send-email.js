@@ -13,7 +13,7 @@ $(document).ready(function() {
         console.log(name, email, message);
 
         $.ajax({
-            url: "http://formspree.io/tcgoldenvideo@gmail.com",
+            url: "https://formspree.io/tcgoldenvideo@gmail.com",
             method: "POST",
             data: {
                 name: name,
