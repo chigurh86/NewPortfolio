@@ -104,6 +104,7 @@ i.icon-bgdark.active {
 .biotext{
 	color: #fff;
 	margin-bottom: 25px;
+	width: 70%;
 }
 #downloadLinks{
 	color: #fff;
@@ -239,14 +240,19 @@ nav{
 		margin-left: 0px !important;
 	}
 	#intro{
-		margin-left: -50%;
+		margin-left: -17%;
 		text-align: center;
+		font-size: 26px;
 	}
 	#middleDiv{
 		/*overflow: auto;*/
 		width: 70%;
 		margin-left: 7%;
 		text-align: center;
+		/*margin-top: 100px;*/
+	}
+	.pushDown{
+		margin-top: 100px;
 	}
 
 	.biotext{
