@@ -8,7 +8,9 @@ background:#e06d5e;
 .navbar .brand a:hover {
 	color:#1BAC91;
 }
-
+.img-circle{
+	width: 60%;
+}
 
 ul#menu-main > li > a:hover {
 	color: #fff;
@@ -168,6 +170,7 @@ nav{
 	background-color: #3e9390;
 	color: white;
 }
+
 .blueGreen h4{
 	color: white;
 }
@@ -223,8 +226,12 @@ nav{
 .offset4{
 	margin-left: 33% !important;
 }
-.movefaces{
-	margin-left: 27% !important;
+.service-box h6{
+	font-family: 'Open Sans', sans serif;
+	color: #328885;
+}
+.service-box h6:hover{
+	color: white;
 }
 .icon-github:hover{
 	background-color: #010a2f !important;
@@ -261,11 +268,12 @@ nav{
 		margin-left: -20% !important;
 	}
 	.img-circle{
-		width: 40%;
+		width: 45%;
 	}
 	#myFace{
 		padding-top: 40px;
 		margin: 0 auto;
+		width: 60%;
 	}
 	.biotext{
 		text-align: center;
@@ -301,7 +309,6 @@ nav{
 	    #header-wrapper{
 				padding-top: 6%;
 				/*height: 1000px;*/
-
 			}
 			.middleDiv{
 				margin-top: 130px;
@@ -340,6 +347,9 @@ nav{
 
 }
 @media (max-width: 400px){
+			#header-wrapper{
+				/*height: 10px;*/
+			}
 			.closedown{
 				display: none;
 			}
@@ -355,5 +365,5 @@ nav{
 			.pageLinks{
 				margin-bottom: 30px;
 			}
-
+			
 }

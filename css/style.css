@@ -832,6 +832,8 @@ section#about {
 
 .people {
 	text-align:center;
+	float: left;
+	width: 250px;
 }
 
 .people h3 {
