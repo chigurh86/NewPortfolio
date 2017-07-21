@@ -227,8 +227,8 @@ nav{
 	margin-left: 33% !important;
 }
 .service-box h6{
-	font-family: 'Open Sans', sans serif;
-	color: #328885;
+	font-family: 'Open Sans', sans serif !important;
+	color: #328885 !important;
 }
 .service-box h6:hover{
 	color: white;
@@ -365,5 +365,5 @@ nav{
 			.pageLinks{
 				margin-bottom: 30px;
 			}
-			
+
 }
