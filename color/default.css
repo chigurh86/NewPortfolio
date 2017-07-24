@@ -175,6 +175,10 @@ nav {
     margin-left: 180px
 }
 
+h6.greentext{
+  padding-left: 37px;
+  width: 120px;
+}
 .yourquote {
     font-size: 46px;
     font-weight: 800;
@@ -281,6 +285,7 @@ nav {
     #fix {
         margin-left: -1%
     }
+
 }
 @media (min-width:980px) and (max-width:1199px){
     #myFace {
@@ -292,6 +297,9 @@ nav {
 @media (max-width:979px) {
     html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container {
         background: #000
+    }
+    .yourquote{
+      text-align: center;
     }
     .navbar-inner {
         background: #000!important
@@ -352,6 +360,10 @@ nav {
 }
 
 @media (max-width:400px) {
+    h6.greentext{
+      padding-left: 32%;
+      width: 120px;
+    }
     .closedown {
         display: none
     }
