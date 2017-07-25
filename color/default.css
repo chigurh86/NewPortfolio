@@ -246,3 +246,158 @@ h6.greentext{
 .icon-github:hover {
     background-color: #010a2f!important
 }
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+
+@media (max-width:767px) {
+    #intro,
+    #middleDiv,
+    .biotext {
+        text-align: center
+    }
+    .movefaces,
+    .offset4 {
+        margin-left: 0!important
+    }
+    #intro {
+        margin-left: -17%;
+        font-size: 26px
+    }
+    #middleDiv {
+        width: 100%;
+        margin-left: 7%;
+    }
+    .pushDown {
+        margin-top: 70px
+    }
+    .biotext {
+        width: 90%;
+        margin-right: 90%!important;
+        margin-left: -20%!important
+    }
+    .img-circle {
+        width: 45%
+    }
+    #myFace {
+        padding-top: 40px;
+        margin: 0 auto;
+        width: 60%;
+
+    }
+    #fix {
+        margin-left: -1%
+    }
+    .yourquote{
+      
+    }
+}
+@media (min-width:980px) and (max-width:1199px){
+    #myFace {
+        width: 60%;
+
+    }
+}
+
+@media (max-width:979px) {
+    html.csstransforms.csstransforms3d.csstransitions body div.navbar-wrapper div.navbar.navbar-inverse.navbar-fixed-top div.navbar-inner div.container {
+        background: #000
+    }
+    .yourquote{
+      text-align: center;
+    }
+    .navbar-inner {
+        background: #000!important
+    }
+    #mything {
+        width: 80%
+    }
+    #header-wrapper {
+        padding-top: 6%
+    }
+    .middleDiv {
+        margin-top: 130px
+    }
+    .picture-portfol {
+        width: 80%
+    }
+    #myFace {
+        width: 80%;
+        margin-left: 35%
+    }
+    #fix{
+      margin-left: 200px !important;
+    }
+}
+
+@media (max-width:767px) {
+    #myFace {
+        width: 50%;
+    }
+    #intro{
+      margin-left: 3%;
+      text-align: left;
+    }
+    #busbyintro,
+    .bigTitle,
+    .biotext,
+    .pageLinks,
+    .titles {
+        margin-left: 3%!important
+    }
+    .picture-portfol {
+        width: 40%
+    }
+    .biotext {
+        width: 60%;
+        margin-right: 0!important;
+        text-align: left
+    }
+    .headline {
+        margin-left: 2%!important
+    }
+    .row{
+      text-align: center;
+    }
+    #fix{
+      margin-left: 0px !important;
+    }
+}
+
+@media (max-width:400px) {
+    h6.greentext{
+      padding-left: 32%;
+      width: 120px;
+    }
+    .closedown {
+        display: none
+    }
+    .hiddendiv {
+        display: block
+    }
+    #intro{
+      /*text-align: center;*/
+    }
+    .biotext {
+        width: 100%;
+        /*text-align:center;*/
+    }
+    .linkText {
+        font-size: 20px
+    }
+    .pageLinks {
+        margin-bottom: 30px
+    }
+    #downloadLinks{
+      margin-left: 7px;
+
+    }
+    .row{
+      text-align: center;
+    }
+@media (max-width:375px) {
+    .bg3 {
+        display: none
+    }
+}
